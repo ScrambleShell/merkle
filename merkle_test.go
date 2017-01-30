@@ -25,7 +25,7 @@ func TestBitCoin(t *testing.T) {
 		"7b14b05552f053a862df22824f92e94f155722f9e5d91341b934a6de010b6560",
 		"2564b40ef226c73eb63409f9dbdcc64aeacca6e3a7136e86156a64573ba3f6d1",
 	}
-	correct := "bb988af992654871e8cefe8bbe05e9f9679611eadcfa53980ee515978eebcd52"
+	correct := "M8V2uG36w0srmQReFqC6fCpMZcGbobJyS60OS6HFXD0="
 	if h := Hash(input); h != correct {
 		t.Fatalf("Hash incorrect, recevied: %s, expected: %s", h, correct)
 	}
